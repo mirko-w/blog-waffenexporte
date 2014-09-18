@@ -15,3 +15,12 @@ class WaffenexporteItem(scrapy.Item):
     recipient = scrapy.Field()
     year = scrapy.Field()
     tiv = scrapy.Field()
+
+
+class CategoryItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    supplier = scrapy.Field()
+    category = scrapy.Field()
+    year = scrapy.Field()
+    tiv = scrapy.Field()
